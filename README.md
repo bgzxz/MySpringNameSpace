@@ -1,0 +1,2 @@
+# MySpringNameSpace
+Spring NameSpace Example
