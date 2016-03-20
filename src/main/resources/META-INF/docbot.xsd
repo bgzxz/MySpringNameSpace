@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.docbot.io/schema/my"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.docbot.io/schema/my">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:annotation>
+        <xsd:documentation>
+            <![CDATA[
+               My Example Spring NameSpace
+            ]]>
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:element name="docbot">
+        <xsd:complexType>
+            <xsd:attribute name="name" type="xsd:string" use="required"/>
+            <xsd:attribute name="timeOut" type="xsd:integer" default="100"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
